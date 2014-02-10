@@ -1,0 +1,154 @@
+
+It was a design question. You have to design a game. it has different types of monsters and different weapons. hero would shoot monster. each monster would have some initial health. Each weapon would do some predefined damage to monster. when its health gets 0, monster would die/disappear. and there would be multiple levels. based on level, monster and their behavior would change.
+
+
+
+There is a N*N integer matrix Arr[N][N]. From the row r and column c, we can go to any of the following three indices:
+
+I.                Arr[ r+1 ][ c-1 ] (valid only if c-1>=0)
+
+II.               Arr[ r+1 ][ c ]
+
+III.              Arr[ r+1 ][ c+1 ] (valid only if c+1<=N-1)
+
+So if we start at any column index on row 0, what is the largest sum of any of the paths till row N-1.
+
+
+
+Multiply two linked lists represented by numbers. Only one linked list must be used to do all additions and store the result 
+i.e., intermediate additions should not be done with extra linked lists and finally computing the result.
+
+
+
+
+ There is a big file of words which is dynamically changing. We are continuously adding some words into it. How would you keep track of top 10 trending words at each moment?
+
+
+ Median of two sorted arrays.
+
+
+3) Given an array, find three numbers a, b and c such that a^2 + b^2 = c^2
+
+
+
+
+An array is given representing the colors of n jars, colors have values 0-99. 
+When two jars are mixed the resulting volume is same as volume of one jar. 
+Smoke is color1*color2… and resulting color is (color1+color2)% 100. 
+Keep on mixing colors such that you end up with just one jar with minimum smoke.
+
+
+There is a sentence that your friend knows, but while giving it to you, he lost all the spaces. 
+You have to dictionary with you. How would you reconstruct the original sentence using it.
+
+
+
+ You are involved in a betting game whose rules are as follows :
+a) if you win a round, the bet amount will be added to your sum and next bet amount will be $1;
+b) if you lose a round, the bet amount will be reduced from your total sum and next bet will be twice the previous.
+c) game ends when all the rounds are complete or you dont have sufficient sum.
+Initially, you are given with a string of the form “WLWWL” where W indicates a win and L indicates a loss and initial sum. Initial bet amount will be $1.
+
+
+
+Given a grid with size m,n. Find the total number of distinct paths which starts from the start of the grip (top left corner say (0.0)) and reaches end of the grid (bottom right corner say (m-1,n-2)). On condition that you can only move in right direction i.e. positive x direction (+1, 0) or in up direction i.e. positive y direction (0, +1) from any given position.
+
+I wrote the code using recursion. Asked to write code without recursion using DP. also what is the time complexity of the program, given size of the grid is m X n
+
+
+
+2. Given 2 rectangles , find whether they are overlapping or not.
+
+
+You have some packages and you have to decide the build order for them.
+A package should be built before the packages that depend on it.
+For example. A={B,C}, B={D}, C={}, D={E}, E={}, F={}
+So one possible build order for package “A” is E, D, B, C, A.
+You have to write a function which will take the package name and will return its build order. You have API which will return you the list of packages on which calling package depends on. For example, the API will return B and C in a list when you call it providing the parameter as package A.
+
+
+ Find your own method to balance an unbalanced binary tree.(you must not use existing methods like AVL, red black or b trees).
+Hint: There is no restriction on placing nodes. You can remove any node from any place and put it in any place.
+I devised an algorithm which will make use of two lists. One list contains nodes far away from the root and this is sorted in decreasing order of levels and left to right if nodes are in same level. Other list contains nodes which are not fully filled. This is sorted increasing order of levels and left to right if nodes are in same level .
+Remove the first node (listed in list1) and insert as a child of first node in list2.add this node also in list 
+
+
+There is a file which contains N words. There may be M anagrams in that file, K words on each anagrams. K>=1, M>=1, N>=1. You need to write an algorithm which will create one list for each anagram with k words and group all M lists with one data structure (This is the main area.we need to think a data structure which will minimize the space and time complexity of word Finding appropriate List and Inserting word).
+I could do the insertion in O(1) time by keeping track of tail pointer in each list. But finding the appropriate list needs o(n) in case of linked list, o(log(n)) in case of binary search tree. Using hash table, you can do this in o(1), but writing a hash function is difficult and inefficient in terms of time. Then I suggested Trie data structure.with this, we can reduce the time complexity well. But space complexity will be more. I told all the ideas to interviewer. They were much satisfied with this. And moved to next question(without writing code J)
+
+
+
+New:
+
+
+Print an organisational hierarchy.
+Naveen manages Satish
+Satish manages Anushree
+Satish manages Sandeep
+Gurinder manages Naveen
+
+Gurinder->Naveen
+Naveen->Satish
+Satish->Anushree,Sandeep
+Anushree->
+Sandeep->
+
+
+
+ Given a set of intervals like 5-10, 15-20, 25-40, 30-45, 50-100. Find the ith smallest number in these intervals.
+Assume there are no duplicate numbers.
+
+e.g:  1st smallest number = 5
+	  6th smallest number = 10
+	  7th smallest number = 15 and so on. 
+I told him that we would first sort the interval on basis of starting numbers. Then merge overlapping intervals to get a set of non-overlapping intervals like 5-10, 15-20, 25-45, 50-100. Now we can find the ith smallest number after finding the appropriate interval.
+
+FOLLOW UP: He then modified this question to accomodate duplicate numbers also.
+
+Suppose we have intervals like 5-10, 8-12. 
+Then total numbers in these two intervals would be: {5,6,7,8,8,9,9,10,10,11,12} 
+		So, 1st smallest number: 5
+			4th smallest number: 8
+			5th smallest number: 8 (here is the 
+change since now we have duplicate elements also) and so on. 
+3. Given a dictionary of 50,000 words. Given a phrase without spaces, add spaces to make it a proper sentence.
+
+e.g:input:  thequickbrownfoxjumpoverlazydog
+	output: the quick brown fox jump over lazy dog
+
+
+ Worst case complexity of finding a word in HASHMAP given we have ‘B’ buckets and total of 50,000 words. ( Ans: O(50,000/B) )
+      	2) Complexity of finding a word in TRIE. (Ans: O(Word Length) )
+      	3) Advantages of TRIE over HASHMAP and some similar discussions.
+
+
+Given an array of numbers find all such triplets that satisfy the given condition.
+
+Condition: a[i] < a[j] < a[k] where I < j < k.
+
+At first go I thought that it was a pretty easy question but slowly the mist started to clear and I realized how tough it was. The interviewer wanted me to solve it in linear time i.e. O(N)
+
+
+Given an array of numbers find the maximum count of duplets and triplets such that there sum is a multiple of three. Number that has appeared once can’t be included anywhere else.
+I solved this question using a property of modulus.
+
+
+
+Output nearest number greater than given number such that output is palindrome
+ex: 121:131
+900:909
+99:101
+
+Design Linkedin and find till 2nd level connections and path between 2 connection
+for ex: if A is friend of B which is friend of C
+print between A and C A-B-C
+
+
+Given stream of Strings find top 5 words with maximum frequency or count
+
+Given linked list as a-x-b-y-c-z
+output it as a-b-c-z-y-x
+that is reverse alternate element and append to end of list
+
+
+Given an array, output an array where every index conains nearest greatest element to that element on right side.
