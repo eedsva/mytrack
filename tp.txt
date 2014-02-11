@@ -49,7 +49,7 @@ I wrote the code using recursion. Asked to write code without recursion using DP
 
 
 
-2. Given 2 rectangles , find whether they are overlapping or not.
+Two rectangles are given in two D space. Find if these are overlapping or not
 
 
  Find your own method to balance an unbalanced binary tree.(you must not use existing methods like AVL, red black or b trees).
@@ -137,3 +137,7 @@ that is reverse alternate element and append to end of list
 
 
 Given an array, output an array where every index conains nearest greatest element to that element on right side.
+Find longest palindrome in a string
+Find sum K from an unsorted array which have both –ive & +ive numbers.
+Full explanation about tries (search, insert, traversal, delet)
+Full browser working
