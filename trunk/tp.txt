@@ -137,7 +137,7 @@ that is reverse alternate element and append to end of list
 
 
 Given an array, output an array where every index conains nearest greatest element to that element on right side.
-Find longest palindrome in a string
+
 Find sum K from an unsorted array which have both –ive & +ive numbers.
 Full explanation about tries (search, insert, traversal, delet)
 Full browser working
