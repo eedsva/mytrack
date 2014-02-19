@@ -2,19 +2,6 @@
 It was a design question. You have to design a game. it has different types of monsters and different weapons. hero would shoot monster. each monster would have some initial health. Each weapon would do some predefined damage to monster. when its health gets 0, monster would die/disappear. and there would be multiple levels. based on level, monster and their behavior would change.
 
 
-
-There is a N*N integer matrix Arr[N][N]. From the row r and column c, we can go to any of the following three indices:
-
-I.                Arr[ r+1 ][ c-1 ] (valid only if c-1>=0)
-
-II.               Arr[ r+1 ][ c ]
-
-III.              Arr[ r+1 ][ c+1 ] (valid only if c+1<=N-1)
-
-So if we start at any column index on row 0, what is the largest sum of any of the paths till row N-1.
-
-
-
 Multiply two linked lists represented by numbers. Only one linked list must be used to do all additions and store the result 
 i.e., intermediate additions should not be done with extra linked lists and finally computing the result.
 
