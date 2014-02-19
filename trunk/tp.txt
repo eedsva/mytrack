@@ -98,7 +98,8 @@ Given an array of numbers find all such triplets that satisfy the given conditio
 
 Condition: a[i] < a[j] < a[k] where I < j < k.
 
-At first go I thought that it was a pretty easy question but slowly the mist started to clear and I realized how tough it was. The interviewer wanted me to solve it in linear time i.e. O(N)
+At first go I thought that it was a pretty easy question but slowly the mist started to clear and I realized how tough it was.
+ The interviewer wanted me to solve it in linear time i.e. O(N)
 
 
 Given an array of numbers find the maximum count of duplets and triplets such that there sum is a multiple of three. Number that has appeared once can’t be included anywhere else.
