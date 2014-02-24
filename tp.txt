@@ -6,8 +6,6 @@ Multiply two linked lists represented by numbers. Only one linked list must be u
 i.e., intermediate additions should not be done with extra linked lists and finally computing the result.
 
 
-
-
  There is a big file of words which is dynamically changing. We are continuously adding some words into it. How would you keep track of top 10 trending words at each moment?
 
 
@@ -15,8 +13,6 @@ i.e., intermediate additions should not be done with extra linked lists and fina
 
 
 3) Given an array, find three numbers a, b and c such that a^2 + b^2 = c^2
-
-
 
 
 An array is given representing the colors of n jars, colors have values 0-99. 
@@ -28,13 +24,9 @@ Keep on mixing colors such that you end up with just one jar with minimum smoke.
 There is a sentence that your friend knows, but while giving it to you, he lost all the spaces. 
 You have to dictionary with you. How would you reconstruct the original sentence using it.
 
-
-
 Given a grid with size m,n. Find the total number of distinct paths which starts from the start of the grip (top left corner say (0.0)) and reaches end of the grid (bottom right corner say (m-1,n-2)). On condition that you can only move in right direction i.e. positive x direction (+1, 0) or in up direction i.e. positive y direction (0, +1) from any given position.
 
 I wrote the code using recursion. Asked to write code without recursion using DP. also what is the time complexity of the program, given size of the grid is m X n
-
-
 
 Two rectangles are given in two D space. Find if these are overlapping or not
 
@@ -49,9 +41,7 @@ There is a file which contains N words. There may be M anagrams in that file, K 
 I could do the insertion in O(1) time by keeping track of tail pointer in each list. But finding the appropriate list needs o(n) in case of linked list, o(log(n)) in case of binary search tree. Using hash table, you can do this in o(1), but writing a hash function is difficult and inefficient in terms of time. Then I suggested Trie data structure.with this, we can reduce the time complexity well. But space complexity will be more. I told all the ideas to interviewer. They were much satisfied with this. And moved to next question(without writing code J)
 
 
-
 New:
-
 
 Print an organisational hierarchy.
 Naveen manages Satish
@@ -64,8 +54,6 @@ Naveen->Satish
 Satish->Anushree,Sandeep
 Anushree->
 Sandeep->
-
-
 
  Given a set of intervals like 5-10, 15-20, 25-40, 30-45, 50-100. Find the ith smallest number in these intervals.
 Assume there are no duplicate numbers.
@@ -168,6 +156,3 @@ Eg. 3 1 2 5 9 4 8 should be converted to
 Given an array of integers (+ve and -ve), give a contiguous set of numbers that add to 1
 Eg.	4 3 5 -3 -1 2 -3 10 2
 Ans: 5 -3 -1 2 -3
-
-
-Rotate a 2-D Matrix by 90 degrees
