@@ -156,3 +156,12 @@ Eg. 3 1 2 5 9 4 8 should be converted to
 Given an array of integers (+ve and -ve), give a contiguous set of numbers that add to 1
 Eg.	4 3 5 -3 -1 2 -3 10 2
 Ans: 5 -3 -1 2 -3
+
+Print all nodes that are at distance k from a leaf node
+
+Find distance between two given keys of a Binary Tree
+Rearrange an array so that arr[i] becomes arr[arr[i]] with O(1) extra space
+Sort n numbers in range from 0 to n^2 – 1 in linear time
+
+linked list palindrome-alpha numeric characters-ignore case
+Write a function to find the longest common prefix string amongst an array of strings.
