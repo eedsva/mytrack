@@ -1,0 +1,16 @@
+Projects to do:
+---------------
+1) add folder(s) in vlc
+2) .net library/Framework for accessing google spreadsheet
+3) Web Crawler in .net
+4) WebSocket Implementation in .net -- A Concept which use WebSocket
+5) Create an IOS and An Android app based on MONO and their native Languages.
+
+
+
+Contributions to do:
+-------------------
+
+1) BootStrap MVC
+2) Validation Framework - Fluent MVC
+3) Creating Templates For Razor by taking advantage of "Templated Razor Delegates"
