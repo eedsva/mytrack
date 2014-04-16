@@ -1,0 +1,162 @@
+Given an circular linked list. convert it into non-circular . no link or data can be changed.
+(basically find start node of circular list and de-link it )
+
+Given an integer N . tell if it is power of 3 or not.
+
+ Given infinitely long character array.
+replace all occurrence of particular word with another word of larger length. Solution should be inplace can do copy only one time.
+e.g.
+Gandhi was born in 1969. Gandhi was from gujrat.
+replace gandhi with mahatma
+
+How realloc() work in C.
+
+Process vs threads
+
+3. One question to check whether i have idea on address space of process and threads
+(based upon threads share data and heap but have separate stacks )
+
+
+(Bit manipulation/bit masking)
+Given a M*N size tv screen. Colour of each pixel is integer value b/w 0-7 (i.e. 3 bits to represent colour)
+screen is tightly packed bits(no byte padding allowed). now given a (i,j) index of pixel change its colour ?
+Basically screen is matrix but in memory its represented as 1-d array.
+character array can be used to represent each bit.
+Hint:
+map matrix (i,j) to 1-d array and change 3 bits to change colour.
+problem arise when 2 bits are in one byte and another 1 bit is in another byte.
+
+
+Given set of words that are lexographically sorted, find the grammar.
+Eg:
+abc
+acd
+bcc
+bed
+bdc
+dab
+The order of letters for the given example would be
+a->b->c->e->d
+
+
+
+ Find the largest basin size in a given matrix.
+9 9 9 8 8 8
+8 8 8 7 7 7
+7 7 7 7 7 7
+8 8 8 8 9 9
+5 5 5 5 6 3
+5 5 5 3 3 3
+For the above example, the highlighted values form the maximum size basin.
+
+
+Given a sentence and a set of characters. Find the minimum window within which the set of characters can be found in the sentence in any order.
+
+In a client-server architecture, there are multiple requests from multiple clients to the server. The server should maintain the response times of all the requests in the previous hour. What data structure and algo will be used for this? Also, the average response time needs to be maintained and has to be retrieved in O(1).
+
+I was asked to write code to parse an XML and do the following options by not hardcoding any value.
+
+      1) Validate the XML.
+      2) Given a level number, print all values of tags in the same level.
+      3) Search
+        • a tag name for a given value
+        • for value of any tag given a value of tag at any sub levels.
+First there was discussion as to how to go about the problem and the algorithm. Then 1 hour for coding the solution. Finally the code was evaluated and some extensions to the solutions were discussed
+
+ Given a tree with edge weights, find any path in the tree with maximum sum of edges.
+
+ Two strings s1 and s2 are given; find a minimal length substring in s1 which does not contain s2 as a substring. (Do include all edge cases)
+Q2. Swap all nodes of a linked list with their next nodes.
+
+
+Q1. An integer array of size n is A[] given, find the three numbers s.t. A[i] > A[j] > A[k] and I < j < k.(algo only)
+Q2. An array of integers is given, trim the array such that 2*min > max. min and max are the minimum and maximum elements of the array. You can remove elements either from start or from end of the array if above condition does not meet. No of removals should be minimum. (algo + code)
+For example a, b, c, d, e f are the elements of array, c is the min num and e is max no
+condition 2*c > e is true then we are done but if false then remove either from start i.e. a,b,c or from end i.e. e, f such that new min or max would satisfy the condition and removals should be minimum.
+Q3. A sorted array of integers and a number K is given, find the closet number to K. (algo only
+
+Q1. Equilibrium Point in an integer array (sum of left side elements should be equal to sum of right hand side elements)
+Q2. Extend above for multiplication (multiplication of left side elements equal to multiplication of right side elements)
+(special case of Zero and some discussion on arithmetic exception and range bound errors)
+
+
+ For a given number K, print all pairs of valid parenthesis combination and return the total count of such combinations.
+Q2. There are n balls kept on a table and connected in random fashion but there is no cycle (no back edge). Write the code to select a ball such that after lifting the whole structure from that ball height will be minimum. (algo+code+ mathematical proof of correctness)
+Q3. Difference b/w http and https.
+Q4. Suppose you are handling Amazon website and you have 10 MB size home page. Optimize the homepage for a customer who has 100 kbps internet connection.
+Further he asked for the customer who has 100 mbps internet connection.
+
+
+Q1. Implement memcpy (*src,*target) function.
+Q2. Reverse contents of a linked list.
+Q3. I code in java so lots of question on oops and java like swing and awt difference , vector and array list difference , interface and abstract classes.
+Q4. Client and server code in chat window, background process in server and network, networking layers.
+Q5. Process and threads and code for thread safe situation (take an example and explain)
+
+Q1. Given flat files (for an entire year, 1 per day) of train schedules (arrival and departure times at a given station) find Min platforms required to accommodate the trains in that station.(algo only)
+Q2. I want to write a ransom note. But I don’t want to write it by hand, I’m going to cut letters out of a magazine. How can I tell if the magazine has enough of the right words to spell out the note I want to write? Let’s assume we have a way to digitize the text of the magazine. (algo only )
+I asked him about Amazon kindle and Amazon instant video. Show him that you know lot about amazon.
+
+ Contiguous elements in an array whose sum is k.
+2. Convert sorted array to binary search tree.
+
+Given a stream of characters, convert it to a sentence with valid words. Assume you have a function IsWord which returns true if the passed string is a word. He asked me to write code and mail him. Algo + Code
+Ex: Iamgoodboy – I am good boy
+
+
+Given an array of characters, find the longest continuous non-repeating sequence of characters. Algo + Code
+Ex: aabcdefdghiajk – efdghiajk
+I have given a hash based solution, so he asked me to write a custom hashfunction and how to handle collisions.
+2. Find the next largest palindrome number of the given number. Algo + Code
+Ex: 120 -121, 123 – 131
+
+
+ Given a string, find the largest repetitive sequence. Algo + Code
+Ex: abcdefbcd – bcd, banana – ana
+
+Given a string, remove ‘a’, ‘bc’ from the string and print the
+result. Algo + Code
+Ex: asdbc – sd
+2. You will be receiving an infinite sequence of numbers continuously
+and at any particular moment find the 10 largest ten numbers received
+till now. Algo
+
+
+ Given a very big array of millions of integers, find sum of all the elements.
+Parallel processing and threads is the answer. Threads concept,
+synchronisation and so many of it.
+4. OS concepts – virtual memory, paging, process states, paging algos.
+
+you have an array which has a set of positive and negative numbers, print all the subset sum which is equal to 0.
+
+eg 2, 1, -1, 0, 2, -1, -1
+o/p: 1, -1
+         1, -1, 0
+         0
+         2, -1, -1
+
+
+1> Return the longest palindromic substring in a string
+2> Count the number of 2's in all number from 0 to n .
+
+Divide an array into 2 subarrays such that the absolute difference of their sum is minimum. It was then extended to divide into two subsequences .
+
+
+ Convert a linkedlist with positive and negative integers into a list with first all negative integers, then positive. order amongst negative and positive numbers to be maintained .
+
+Given an array of size n, and an integer k. find minimum number in every subarray of size k
+
+Assembly scheduling problem (Dynamic Programming paradigm)
+
+
+1> How to check if two sets are disjoint ?
+2> How to implement hashing for a set .
+3> Given n sets , give the minimal number of sets which must be removed so that the remaining sets are all disjoint (Variation of set packing problem)
+The interviewer was interested in some greedy heuristic as he knew its an np complete problem and no solution can be better than exponential
+4> You are given a matrix of 1's and 0's . The property is that
+every row of matrix is sorted in descending order . Return row with maximum number of 0's
+
+
+1> Implement lastindexofastring(String s1,String s2) . If s2 is present multiple times return the last index of s2 in s1 , else return -1.
+2> Given a paragraph of text, write a program to find the first shortest sub-segment that contains each of the given k words at least once. A segment is said to be shorter than other if it contains less number of words.
+
