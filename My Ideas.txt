@@ -5,7 +5,7 @@ Projects to do:
 3) Web Crawler in .net
 4) WebSocket Implementation in .net -- A Concept which uses WebSocket
 5) Create an IOS and An Android app based on XAMARIN and their native Languages.
-
+6) Create Helper Methods via Library(Like TwitterBootStrapMVC) For Angular JS and Knockout JS.
 
 
 Contributions to do:
@@ -14,3 +14,6 @@ Contributions to do:
 1) BootStrap MVC
 2) Validation Framework - Fluent MVC
 3) Creating Templates For Razor by taking advantage of "Templated Razor Delegates" (Refer Haacked.com)
+4) Fluent Nhibernate mapping Stored procedure.
+5) JS GanttChart 
+6) Jquery Gantt Chart
