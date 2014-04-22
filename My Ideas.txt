@@ -6,7 +6,7 @@ Projects to do:
 4) WebSocket Implementation in .net -- A Concept which uses WebSocket
 5) Create an IOS and An Android app based on XAMARIN and their native Languages.
 6) Create Helper Methods via Library(Like TwitterBootStrapMVC) For Angular JS and Knockout JS.
-
+7) Create Sublime Package for C# intellisense.
 
 Contributions to do:
 -------------------
