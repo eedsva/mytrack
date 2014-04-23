@@ -1,0 +1,21 @@
+Here are some of the ideas I always wish to implement:
+
+1. Person finder. google developed this app for finding out missing people in times of calamities. 
+  One can build a TEMPLATE for this app and can be customized for any purpose. The features to be included in this app are i) Add/edit/delete a person details ii) search person details.
+
+2. A disease specific scheduler: The purpose of this app is to make a to do list with reminders set for all patient needs.Features of this app. i) summary of the patient (patient history) every time asked in hospital and we forget it most of the times ii) list of medicines as in prescription with timing iii) next doctor visit iv) time to order next set of medicines once it gets over. 
+
+3. Contacts Backup. similar to contact KIT app.
+
+4. Sentiment Analysis of Tweets of various categories like product reviews.
+
+5. Building a Website Template for NGO's as they cannot invest on hiring programmers.
+
+6. App for calculating CGPA.
+
+7. Building a clone of Facebook/Twitter/Dropbox.
+
+8. Creating photo gallery or some other useful plugins using CSS and Jquery.
+
+9. Resume Builder: This is a very important app as most of them need this app. 
+  There are very apps  which takes in details of a person and prepares a custom resume based on templates.
