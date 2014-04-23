@@ -7,6 +7,7 @@ Projects to do:
 5) Create an IOS and An Android app based on XAMARIN and their native Languages.
 6) Create Helper Methods via Library(Like TwitterBootStrapMVC) For Angular JS and Knockout JS.
 7) Create Sublime Package for C# intellisense.
+8) Outlook Addons for highlighting in the taskbar icon itself.
 
 Contributions to do:
 -------------------
