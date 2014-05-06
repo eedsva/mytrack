@@ -25,3 +25,19 @@ Given a string example : shoppingwithflipkartiseasy, Now we are given this strin
  code for how to create deadlock
 
 detail discussion on synchronied keyword, both in the cases of class static functions and instance functions
+
+ Given a number n where n means 0,1,2,3….n-1. Compute the no of BST which can be formed using this range as input in any order
+
+Given a linked list which contains representation of any number, like for 1234, the representation will be 1->2->3->4. Now we need to add 1 to the number, so that the output is 1->2->3->5
+
+
+Remove minimum elements from either side such that 2*min becomes more than max
+
+ Reverse a stack without additional data structure.
+
+ Given a series of stock costs for a number of days.Find two days on which a person should buy and sell stock for maximum profit.
+(The solution breaks to finding two numbers in an array with maximum difference such that the smaller number appears before the greater number) .
+2. Given any pointer(it can be head or any other node) to a sorted cyclic linked list and a number .Insert the number in the list without disturbing the order.All the edge cases to be taken care of
+
+ Difference between primary key and unique constraint.
+
