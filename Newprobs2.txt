@@ -40,4 +40,36 @@ Remove minimum elements from either side such that 2*min becomes more than max
 2. Given any pointer(it can be head or any other node) to a sorted cyclic linked list and a number .Insert the number in the list without disturbing the order.All the edge cases to be taken care of
 
  Difference between primary key and unique constraint.
+ 
+ Google<<<<
+ 
+ Manually calculate bits in 146
+ 
+ Tell difference between big endian and little endian
+ 
+ Find minimum number of steps to reach the end of array from start (array value shows how much you can move). DP question
+ 
+ Round 1
+1) Design question based on storing images.Stress on performance and scale.
+2) Divide number and return result. e.g 100/3 result should be 33.(3) and 5/10 should be 0.5
+
+Round 2
+1) Median of stream of numbers
+2) Question like pancake sorting where you can
+
+Round 3
+1) Find count of number in sorted array. Obviously binary search question.
+2) Design two player battleship game to be played over internet
+
+Round 4
+1) Design question based on wearable devices.
+2) Draw a line on 2D array of boolean.
+only swap to sort an array of characters.
+
+Round 5
+1) Compare two documents(string array) based on n grams.
+e.g doc1 – Today is Sunday.
+doc2 – Today is Saturday
+if n = 2 then number of duplicates is 1 (Today is) and if n =2 then number of duplicates is (Today, is)
+
 
