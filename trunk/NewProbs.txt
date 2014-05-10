@@ -1,6 +1,3 @@
-Given an circular linked list. convert it into non-circular . no link or data can be changed.
-(basically find start node of circular list and de-link it )
-
 Given an integer N . tell if it is power of 3 or not.
 
  Given infinitely long character array.
@@ -10,7 +7,7 @@ Gandhi was born in 1969. Gandhi was from gujrat.
 replace gandhi with mahatma
 
 How realloc() work in C.
-
+ona
 Process vs threads
 
 3. One question to check whether i have idea on address space of process and threads
@@ -48,6 +45,51 @@ a->b->c->e->d
 5 5 5 5 6 3
 5 5 5 3 3 3
 For the above example, the highlighted values form the maximum size basin.
+
+2. Given a string of digits,find the next smallest number using the same digits.If its not possible to get such a number print -1;
+
+     
+        Eg : Input : "123"  Output : "132"
+             Input : "12453" Output : "123534"
+             Input : "987"     Output :  "-1" 
+
+
+Given an array of 1s followed by 0s,find the number of 0s.
+
+  
+     Eg : Input : 111100    Output =2
+          Input : 1         Output =0 
+I solved it by using Binary Search to find the first and last occurrence of 0 in the array and subtracting the results.
+
+2. Given an array of positive and negative numbers, find the pair of elements whose sum is closest to 0.
+
+   
+     Eg : Input :  3 5 -9 -4 17 11       
+          Output  3 , -4  
+The brute force solution would be O(n^2) by comparing each pair of elements.As expected, he asked me to optimize my solution.
+So I sorted the array using merge sort. (I know its not in-place but it did not strike me at the time)
+Then used two indexes at the beginning and end of the the array and incremented/decremented the indexes as needed.
+
+
+
+ Given an array of integers , replace each element with the product of the remaining elements.
+
+  Eg : Input - 1 2 3 4     
+       Output : 24 12 8 6 
+First, i gave the obvious solution. I computed the product of the whole array and then divided it by each element to get the resultant array.
+
+But he asked me to do it without using the division operation. After some cross questioning I gave the following solution.
+Store the product of the left side elements for each integer in an array L[].
+
+For eg : Here , L[]= {1 , 1 , 2 , 6 }
+
+Do the same for the right side elements.
+
+Here R[] = { 24 , 12 , 4 , 1} 
+
+The multiply R[i] and L[i]  to get the resultant array.
+Complexity : O(n) 
+
 
 
 Given a sentence and a set of characters. Find the minimum window within which the set of characters can be found in the sentence in any order.
@@ -114,9 +156,6 @@ Ex: 120 -121, 123 – 131
  Given a string, find the largest repetitive sequence. Algo + Code
 Ex: abcdefbcd – bcd, banana – ana
 
-Given a string, remove ‘a’, ‘bc’ from the string and print the
-result. Algo + Code
-Ex: asdbc – sd
 2. You will be receiving an infinite sequence of numbers continuously
 and at any particular moment find the 10 largest ten numbers received
 till now. Algo
@@ -159,4 +198,41 @@ every row of matrix is sorted in descending order . Return row with maximum numb
 
 1> Implement lastindexofastring(String s1,String s2) . If s2 is present multiple times return the last index of s2 in s1 , else return -1.
 2> Given a paragraph of text, write a program to find the first shortest sub-segment that contains each of the given k words at least once. A segment is said to be shorter than other if it contains less number of words.
+
+
+Given a string find the repeated characters and print them in lexicographical order. e.g i/p string- “ABCCAD” o/p-”AC”
+
+Given a huge file 100 million integers. He further divided the file
+to 100 files with 1 million integers each. Each file is sorted. Find the efficient way to find smallest ‘m’ integers. Note ‘m’ is very less in comparison to a million
+
+Given a list of n mp3 songs. Play them randomly. No song should repeat until all the others are played.
+
+Given a binary tree
+
+                               1
+                              /   \
+                             2     3
+                            /  \   /  \
+                           4     5    6
+                         /  \  /    \ /   \
+                        7    8      9   10 
+ Needed to connect the nodes vertically
+                                 1
+                                / | \
+                              2  |   3
+                            / | \ | /  | \
+                          4  |    5  |    6
+                         /  \  |  /   \ |  /   \
+                        7     8       9     10 
+Assume each tree node has an additional pointer 
+(struct node* vertical) 
+
+
+
+ Given stock price of Amazon for some consecutive days. Need to find the maximum span of each day’s stock price. Span is the amount of days before the given day where the stock price is less than that of given day
+
+E.g i/p = {2,4,6,9,5,1}
+      o/p= { -1,1,2,3,2,-1} 
+2. Given a Binary tree each node should contain the sum of left and right subtrees. Leaf nodes will become 0 in the resulting tree.
+
 
