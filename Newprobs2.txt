@@ -73,3 +73,55 @@ doc2 – Today is Saturday
 if n = 2 then number of duplicates is 1 (Today is) and if n =2 then number of duplicates is (Today, is)
 
 
+Given a shared memory between multiple threads, how will you ensure safe access to memory in different scenarios like reading and writing? If at thr point of wrtitng there are mutiple read requests from threads how pending requests can be managed.
+
+Q3: Given an array that has positive numbers and negative numbers and zero in it. You need to seperate the negative numbers and positive numbers in such a way that negative numbers lies to left of zero and positive numbers to the right and the original order of elements should be maintained
+
+ Given 4 youtube servers which are processing user requests.
+i> At any given time If someone requests for currently running videos, then return the number of videos running at a time.
+ii> Which server will actually get the request ?
+iii> How the servers will communicate with each other ?
+iv> Other methods to do this task to reduce overhead on servers?
+v> How many videos running given a time constraint ?
+
+
+MsExcel columns has a pattern like
+A B C … Z
+AA AB AC…. AZ BA BB … ZZ
+AAA AAB
+A has code 1
+Z has code 26
+AA has code 27
+AAA has code 626
+given a number return a column name as string
+
+
+Given Matrix, and co-ordinates of sub-matrix of given matrix find sum.
+
+             
+ Eg            1  2  3
+               4  5  6
+               7  8  9
+               
+    Coordinates for submatrix 1,1 and 2,2
+    Sum= 28  
+
+Given a circular array and a pointer find the given element in the array.
+
+Customer Producer problem,
+2. Semaphore
+3. Deadlock how to solve it.
+
+Given a sorted array find the number of BSTs you can form.
+
+Given a function to getFriends that gets a list of profiles of friends of a particular friend, implement a function to get the shortest path between two given profiles.
+
+Given a matrix with each cell containing each number of candies, and a constraint that you can move only right or down, from the top left corner to the bottom right corner, find the path that gets you maximum candies.
+
+Given a continuous stream of strings, maintain strings such that duplicate are eliminated on the fly. The interviewer wanted working code. So coded the solution during the interview and emailed it to him 10 mins after.
+So if you get “Ted”, “John”, “Mark”, “Ted”, “David”, at the moment in
+time, the list should contain John, Mark, David.
+
+
+
+
