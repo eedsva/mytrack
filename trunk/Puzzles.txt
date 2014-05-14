@@ -1,0 +1,10 @@
+1. There are 8 members in family. 10 years ago the total age of all members was ‘x’, after 3 years a member of age 60 died and a new child is born. Again after 3 year a member of age 60 died and a new child born. Find the current average of age of all members in terms of ‘x’.
+
+2. Three cars A, B and C move with constant speed of 40, 60 and 120 kmph respectively. B starts 2 hours after A. Now A, B and C meet each other at same time. Find how many hours later C started from A.
+
+3. In a exam there are 50 questions. +1 for correct, -1/3 for incorrect and -1/6 for unattempting.
+Shyam scored 32 in that exam. Find the minimum number of questions he must have done wrong.
+
+ Puzzle – two ropes are given. each burn in 60 mins. how to count 45 mins from it.
+) Puzzle – 23 coins are given and two player are there. anyone can pick 1 to 4 coins at a time.
+One who picks the last coin wins.. Find algo for it.
