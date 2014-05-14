@@ -1,0 +1,29 @@
+ Find minimum # elements to be removed from int array so that max element is <= 2x of min element
+
+For given array a of size n we create a set of a[i] , a[a[i]] , a[a[a[i]]] ….. i varies from 0 to n-1 , find the max size of such set.
+
+: Find min element at given level in binary tree
+Design multiple stacks in a Single one big int array as efficient as possible ( real world example multiple process function stacks creation and deletion in memory of linux os )
+
+Design in-memory file system.
+
+A robot standing at top left corner of a grid, it can only move in right or bottom direction , determine total number of possible paths are their to reach bottom right corner.
+
+Given an array of integers and a number x, find the smallest subarray with sum greater than the given value.
+
+Examples:
+arr[] = {1, 4, 45, 6, 0, 19}
+   x  =  51
+Output: 3
+Minimum length subarray is {4, 45, 6}
+
+Create a matrix with alternating rectangles of O and X
+Write a code which inputs two numbers m and n and creates a matrix of size m x n (m rows and n columns) in which every elements is either X or 0. The Xs and 0s must be filled alternatively, the matrix should have outermost rectangle of Xs, then a rectangle of 0s, then a rectangle of Xs, and so on.
+
+Examples:
+
+Input: m = 3, n = 3
+Output: Following matrix 
+X X X
+X 0 X
+X X X
