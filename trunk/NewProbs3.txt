@@ -60,3 +60,76 @@ If you have two eggs, how many max steps you need to find the floor, from which 
 
 3. Implement a calculator which takes a maths expression and evaluates it and prints the result.
 4. Given statements like A is connected to B. D is connected to E. And transitive connections are allowed. Write a code which takes input such connected statements and and two numbers i and j and returns true if i and j are connected (can be transitively), and false if not connected.
+
+
+U have given 10 files and you have given a string suggest data structure which ll facilitate efficient search of string in the file if string appears more than ones in that case u have to print line number and file in which they appear.
+
+Few question related to OS what is deadlock, Race-condition, Semaphore and many more, few question Related to DBMS what is Normalization define all normal forms(I directly told him I don’t remember I read it in 5th semester )
+
+U have given 10 files each having 1 million integer in sorted order, physical memory have size of 3 million suggest method to extract 1 million integer in sorted form efficiently.
+Write a program to convert a decimal number into binary your code should work on both big endian and small endian machine. U have given a variable which tell u whether machine is big endian or small endian
+
+You have given M array each of size n all array are sorted separately write a program to make a big sorted array of size m*n . during discussion he told me to prove many lemma like height of tree is log(n)( for n elements) sum of n natural number is (n*n+1)/2 and many more. He modified problem many times don’t use extra space do it in space etc. discussion went on for almost 1 hour but at the end he was happy with the solutions(I suggested 2 method and further optimization in them.
+
+ Given a sorted array of numbers. Construct a balanced binary tree with the numbers in the Array as keys.
+
+ Sort an almost sorted Array. An almost sorted Array being an Array in which a number is at the most k positions away from its position in the sorted Array.
+
+You are given a 2D grid in which each cell is either empty, contains an entry “D” which stands for Door, or an entry “W” which stands for wall (Obstacle). You can move in any of the four directions from each empty position in the grid. Of course you cannot move into a cell that has “W” in it. You need to fill each empty cell with a number that represents the distance of the closest door to that cell. (They asked me only for the Algo as there wasn’t much time).
+
+
+ Given a 2D (Rectangular) grid of points. You need to find the shortest path from a given source point to a destination point. You can only move up or right. Now among these points, there a few special points from which you can directly jump to the diagonally opposite point (Top-Right diagonal). You are granted a function which when invoked on the point returns 1 if it is a special point and 0 if it is not.
+
+2. You are given a sequence of black and white horses, and a set of k stables numbered 1 to k. You have to accommodate the horses into the stables in such a way that the following conditions are satisfied:
+
+a. You fill the horses into the stables preserving the order of horses. For instance, you cannot put for horse 1 into stable 2 and horse 2 into stable 1. You have to preserve the ordering of horses.
+
+b. No stable should be empty and No horse should be left unaccommodated.
+
+c. Take the product (number of white horses * number of black horses) for each stable and take the sum of all these products. This value should be the minimum among all possible accommodation arrangements.
+
+ Given a floor of dimensions 2 x W and tiles of dimensions 2 x 1, write code to find the number of ways the floor can be tiled.
+
+3. Given a graph, if we were to print all nodes within k hops of a given node, which algorithm would we use, the answer to this was obviously a Breadth first search. He followed it up asking, if one were to use Depth first search instead to code this problem instead, one would encounter bloated running times for Graphs with certain attributes (Perhaps Dense graphs or some such). Describe what types of graphs would a DFS algorithm falter with and why.
+
+Round 6 (Telephonic Interview):
+1. Given that you want to maintain a backend for a bookstore Application that would store names of Authors and books, such that the application can return all the books written by a specific Author and all the Authors of a specific book which is specified in a query. The query can be such that only a substring of the Authorname or the bookname is specified and all the matches should be returned. I proposed a trie based solution, and was asked to code the solution on a collabedit shared document.
+
+2. Describe multithreading.
+
+3. Describe all the processes that happen between you typing in a URL and the webpage appearing on your screen.
+
+4. What is a singleton set What is the data storage model (Data structures) used to store records in a relational Database.
+
+5. Given an Array containing numbers between 1 to n, out of which 1 number is missing, find the missing number.
+
+Design a LRU cache.
+
+
+.	Given two sorted linked lists. You start with a one of the two lists and then move till the end. You may switch to the other list only at the point of intersection (which mean the two node with the same value in different lists.) You have to find the path of maximum sum
+
+  Eg
+  1->3->30->90->120->240->511
+  0->3->12->32->90->125->240->249
+  You can switch at 3 90 or 240 so the max sum paths is
+  1->3->12->32->90->125->240->511 
+2.	Design a contact list for a cell phone which can add & search really quick and is scalable.
+
+Machine coding round
+1.	Write a program which should create a parse tree, find invalid query and do some optimizations.
+Input: fist line contains the list of columns. There will be subsequent lines which will contain the query as follows.
+
+   EMP_ID, EMP_NAME, EMP_DEPT, EMP_AGE
+
+   SELECT EMP_ID,EMP_NAME where EMP_ID>5 AND EMP_NAME=’robert’
+
+   SELECT EMP_AGE WHERE (EMP_NAME=’robert’ AND EMP_ID=5) AND 
+                        (EMP_ID=32) OR (EMP_ID= 32) 
+ONSITE INTERVIEWs
+1.	Design a Synchronized Message broker queues. How will you handle various situations like one queue is down, automatic failover, active master selection, handling acked and unackedmessages.
+2.	Design a site like book my show. It was an open ended question so I concentrated on inventory management. List all entities, classes objects modules and their interactions.
+3.	Design a secure Card storage system. Again open ended but the concentration was on encryption and decryption
+4.	HR round. What are your strength and weaknesses, what did you do that made you happy. What was your best contribution till date.
+5.	Design a Traffic signal . List all entities and classes involved. How will you handle pedestrian crossings etc.
+6.	Design a game of tic tac toe, handling winning situation etc. NXN, multiplayer, multiplayer with synchronization, Disaster recovery, data analytics, SWOT of each approach.
+
