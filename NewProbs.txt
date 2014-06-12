@@ -1,4 +1,4 @@
-Given an integer N . tell if it is power of 3 or not.
+
 
  Given infinitely long character array.
 replace all occurrence of particular word with another word of larger length. Solution should be inplace can do copy only one time.
@@ -7,7 +7,7 @@ Gandhi was born in 1969. Gandhi was from gujrat.
 replace gandhi with mahatma
 
 How realloc() work in C.
-ona
+
 Process vs threads
 
 3. One question to check whether i have idea on address space of process and threads
@@ -46,6 +46,7 @@ a->b->c->e->d
 5 5 5 3 3 3
 For the above example, the highlighted values form the maximum size basin.
 
+
 2. Given a string of digits,find the next smallest number using the same digits.If its not possible to get such a number print -1;
 
      
@@ -53,42 +54,6 @@ For the above example, the highlighted values form the maximum size basin.
              Input : "12453" Output : "123534"
              Input : "987"     Output :  "-1" 
 
-
-Given an array of 1s followed by 0s,find the number of 0s.
-
-  
-     Eg : Input : 111100    Output =2
-          Input : 1         Output =0 
-I solved it by using Binary Search to find the first and last occurrence of 0 in the array and subtracting the results.
-
-2. Given an array of positive and negative numbers, find the pair of elements whose sum is closest to 0.
-
-   
-     Eg : Input :  3 5 -9 -4 17 11       
-          Output  3 , -4  
-The brute force solution would be O(n^2) by comparing each pair of elements.As expected, he asked me to optimize my solution.
-So I sorted the array using merge sort. (I know its not in-place but it did not strike me at the time)
-Then used two indexes at the beginning and end of the the array and incremented/decremented the indexes as needed.
-
-
-
- Given an array of integers , replace each element with the product of the remaining elements.
-
-  Eg : Input - 1 2 3 4     
-       Output : 24 12 8 6 
-First, i gave the obvious solution. I computed the product of the whole array and then divided it by each element to get the resultant array.
-
-But he asked me to do it without using the division operation. After some cross questioning I gave the following solution.
-Store the product of the left side elements for each integer in an array L[].
-
-For eg : Here , L[]= {1 , 1 , 2 , 6 }
-
-Do the same for the right side elements.
-
-Here R[] = { 24 , 12 , 4 , 1} 
-
-The multiply R[i] and L[i]  to get the resultant array.
-Complexity : O(n) 
 
 
 
@@ -130,7 +95,6 @@ Further he asked for the customer who has 100 mbps internet connection.
 
 
 Q1. Implement memcpy (*src,*target) function.
-Q2. Reverse contents of a linked list.
 Q3. I code in java so lots of question on oops and java like swing and awt difference , vector and array list difference , interface and abstract classes.
 Q4. Client and server code in chat window, background process in server and network, networking layers.
 Q5. Process and threads and code for thread safe situation (take an example and explain)
@@ -140,15 +104,8 @@ Q2. I want to write a ransom note. But I don’t want to write it by hand, I’m goi
 I asked him about Amazon kindle and Amazon instant video. Show him that you know lot about amazon.
 
  Contiguous elements in an array whose sum is k.
-2. Convert sorted array to binary search tree.
-
-Given a stream of characters, convert it to a sentence with valid words. Assume you have a function IsWord which returns true if the passed string is a word. He asked me to write code and mail him. Algo + Code
-Ex: Iamgoodboy – I am good boy
 
 
-Given an array of characters, find the longest continuous non-repeating sequence of characters. Algo + Code
-Ex: aabcdefdghiajk – efdghiajk
-I have given a hash based solution, so he asked me to write a custom hashfunction and how to handle collisions.
 2. Find the next largest palindrome number of the given number. Algo + Code
 Ex: 120 -121, 123 – 131
 
@@ -180,11 +137,6 @@ o/p: 1, -1
 
 Divide an array into 2 subarrays such that the absolute difference of their sum is minimum. It was then extended to divide into two subsequences .
 
-
- Convert a linkedlist with positive and negative integers into a list with first all negative integers, then positive. order amongst negative and positive numbers to be maintained .
-
-Given an array of size n, and an integer k. find minimum number in every subarray of size k
-
 Assembly scheduling problem (Dynamic Programming paradigm)
 
 
@@ -196,11 +148,7 @@ The interviewer was interested in some greedy heuristic as he knew its an np com
 every row of matrix is sorted in descending order . Return row with maximum number of 0's
 
 
-1> Implement lastindexofastring(String s1,String s2) . If s2 is present multiple times return the last index of s2 in s1 , else return -1.
 2> Given a paragraph of text, write a program to find the first shortest sub-segment that contains each of the given k words at least once. A segment is said to be shorter than other if it contains less number of words.
-
-
-Given a string find the repeated characters and print them in lexicographical order. e.g i/p string- “ABCCAD” o/p-”AC”
 
 Given a huge file 100 million integers. He further divided the file
 to 100 files with 1 million integers each. Each file is sorted. Find the efficient way to find smallest ‘m’ integers. Note ‘m’ is very less in comparison to a million
@@ -226,13 +174,3 @@ Given a binary tree
                         7     8       9     10 
 Assume each tree node has an additional pointer 
 (struct node* vertical) 
-
-
-
- Given stock price of Amazon for some consecutive days. Need to find the maximum span of each day’s stock price. Span is the amount of days before the given day where the stock price is less than that of given day
-
-E.g i/p = {2,4,6,9,5,1}
-      o/p= { -1,1,2,3,2,-1} 
-2. Given a Binary tree each node should contain the sum of left and right subtrees. Leaf nodes will become 0 in the resulting tree.
-
-

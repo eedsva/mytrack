@@ -5,8 +5,6 @@ Given a file with millions of words, need to find top K words on the basis of oc
 
 Given a list a1,a2,a3….an. Comparison between elements is given like a1>a2, a3>a5, a4>a2…..etc. We need to find whether is there any situation that we can sort the list in to the ascending order on the basis of comparison. Yes or No , explain the conditions
 
-Given a string example : shoppingwithflipkartiseasy, Now we are given this string and a dictionary containing valid words , now we need to break the sentence into words separated by space. Output : shopping with flipkart is easy
-
 
  Need to write a fully functionally and working code for a problem statement. Problem is to write the code for maintaining a directory for any organization where employee will have id, name, post and manager as attribute. Basically two features need to be implemented: (a). Should be able to do searching on the basis of name, prefix search for the name should also be supported, (b). For any employee, we can get the list of all the subordinates which comes under him/her, like for ceo , all the employees list should get displayed
 
@@ -27,8 +25,6 @@ Given a string example : shoppingwithflipkartiseasy, Now we are given this strin
 detail discussion on synchronied keyword, both in the cases of class static functions and instance functions
 
  Given a number n where n means 0,1,2,3….n-1. Compute the no of BST which can be formed using this range as input in any order
-
-Given a linked list which contains representation of any number, like for 1234, the representation will be 1->2->3->4. Now we need to add 1 to the number, so that the output is 1->2->3->5
 
 
 Remove minimum elements from either side such that 2*min becomes more than max
@@ -96,15 +92,6 @@ AAA has code 626
 given a number return a column name as string
 
 
-Given Matrix, and co-ordinates of sub-matrix of given matrix find sum.
-
-             
- Eg            1  2  3
-               4  5  6
-               7  8  9
-               
-    Coordinates for submatrix 1,1 and 2,2
-    Sum= 28  
 
 Given a circular array and a pointer find the given element in the array.
 
