@@ -7,7 +7,6 @@ Design multiple stacks in a Single one big int array as efficient as possible ( 
 
 Design in-memory file system.
 
-A robot standing at top left corner of a grid, it can only move in right or bottom direction , determine total number of possible paths are their to reach bottom right corner.
 
 Given an array of integers and a number x, find the smallest subarray with sum greater than the given value.
 
@@ -133,3 +132,67 @@ ONSITE INTERVIEWs
 5.	Design a Traffic signal . List all entities and classes involved. How will you handle pedestrian crossings etc.
 6.	Design a game of tic tac toe, handling winning situation etc. NXN, multiplayer, multiplayer with synchronization, Disaster recovery, data analytics, SWOT of each approach.
 
+Design a Garbage collector like java. How would you detect depended reference loop? 
+Hist : Class design, Cycle detection algorithms for disjoint graph( List of connected graph)
+
+ Given a sorted array having duplicate elements,how would you find first index of a given element in O(logn).
+Write code for it. Change the condition to find out last index of that elements.
+[ Hint Binary search]
+
+Q2. You have a dictionary of words. Given a word, print all anagram are in dictionary . State the data structure to be used to solve this problem.
+
+Q3. Design a Chip-Encryption system. Which will do following operation:
+1. Take a word from user
+2. Encrypt the word by some Private or public key cryptography or any other algo.
+3. Transmit the encrypted word by TCP or UDp or SSL.
+Design the class diagram using OOD. Which design pattern you are using to achieve this.
+
+. In a plane n points (X and Y) is given. How will you find out maximum co-liner points. Extend this algorithms. it for point(x,y,z) in 3D plane.
+
+Q2. Reverse a 32-bit integers. write code for it.
+
+Q3. What the different issue in multi-threading ? What is the difference between mutex and semaphore.
+Q4. You have a file with million words in it. Find most frequent 10 word in that file. Node that you can store all word in memory.
+(Note : Min-Heap + List )
+
+Given a BST, find out the minimum length form root to leaf with sum S. Note that:
+a) Path from root to leaf node.
+b) Sum of node of the path is S.
+c) if multiple such path exist, print minimum length path.
+d) What is advantage of BST rather than BT used for this algorithm, how it improve the performance. in BST, is it required to explore both side ?
+e) Write working codes for it.
+
+Explain inheritance and Base class is given you need to stop exposing the base class methods without touching the base class at all. It was really tricky.    question i liked it.
+What is deadlock and How to detect deadlock in system.
+Concept of Database normalization and various types of it.
+He also started asking some networking question. Like TCP/IP, socket connection.
+How the chat between 2 user work internally, internally how the packets flows between layer. And suppose user A send “Hi” message to user B and user B just shutdown the system. What will happen in that case.
+
+Given a sorted array of number , value K and value X, find the K nearest number to the value
+Example: Input 12 16 22 30 35 39 42 45 48 50 53 55 56 K = 4 X = 35
+Output 22 30 39 42
+
+t was bit difficult for me to crack, She stated asking from java cloning, which was my weak area. Given a class which contain string Name and reference to person friend, clearly shown below.
+
+Class A {
+   A(String str, Person P { //Constructor
+       this. name = str;
+       this.friend= P ;
+   }
+   // override
+   Clone() {
+       // code for this function was expected from me
+       // which can produce the deep copy
+   }
+}
+Suppose A–>B–>C–>D means A is friend of B, who is friend of C and so on..
+Calling once the Clone method will clone the whole friend list like
+A’–>B’–>C’–>D’ (there A’ is the clone of A).
+
+Find common elements out of two sorted array
+
+Given a infinite string of O’s and 1's respectively. You need to find the transition point from 0 to 1.
+I gave the native solution in O(n). He told to optimize more. Direct binary search can’t be applied on it because string was infinite and length of string was not given.
+I told that i will divide the string in 10 size slots it will reduce complexity. Still he told to optimize more. I told i will increase the slot size in power of 2 like 2,4,8,16,32. he was satisfied with that.
+He again complicate it by adding that now my string contain 0, 1, 2 in sorted order. You need to find transition point from 0 to 1 and 1 to 2. i provided the approach.
+After that told this time i want to make it generic. String can contain 0 to n(input) number find all the transition point. I solved it, he was satisfy with approach and told me write code for it.
