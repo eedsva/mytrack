@@ -154,23 +154,3 @@ Given a huge file 100 million integers. He further divided the file
 to 100 files with 1 million integers each. Each file is sorted. Find the efficient way to find smallest ‘m’ integers. Note ‘m’ is very less in comparison to a million
 
 Given a list of n mp3 songs. Play them randomly. No song should repeat until all the others are played.
-
-Given a binary tree
-
-                               1
-                              /   \
-                             2     3
-                            /  \   /  \
-                           4     5    6
-                         /  \  /    \ /   \
-                        7    8      9   10 
- Needed to connect the nodes vertically
-                                 1
-                                / | \
-                              2  |   3
-                            / | \ | /  | \
-                          4  |    5  |    6
-                         /  \  |  /   \ |  /   \
-                        7     8       9     10 
-Assume each tree node has an additional pointer 
-(struct node* vertical) 
