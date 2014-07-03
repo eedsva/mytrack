@@ -154,3 +154,15 @@ Given a huge file 100 million integers. He further divided the file
 to 100 files with 1 million integers each. Each file is sorted. Find the efficient way to find smallest ‘m’ integers. Note ‘m’ is very less in comparison to a million
 
 Given a list of n mp3 songs. Play them randomly. No song should repeat until all the others are played.
+
+1 represent A, 2 rep B etc and 26 rep Z. Given a number, find number of possible decoding for this number. No need to consider number starts with zero. Eg: input – 1234, output – 3(ABCD, AWD, LCD)
+
+ How to design LRU cache(looking for the DS’s used and their interaction)
+
+ A device need to upgrade and downgrade its software. Eg: mobile phone need to upgrade its OS. Design high level and low level.
+(follow-up – 1. form version X to Y is not possible but z can. 2. from current version to latest version not possible but we can upgrade to an intermediate version and then to latest version. What
+DS will be effective here)
+b. Design a semaphore.
+
+ Given a mathematical expression. How to design this expression evaluator using OOPs concept.
+Given sorted array in decreasing order. Find first occurrence of given key.
