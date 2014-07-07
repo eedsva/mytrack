@@ -166,3 +166,9 @@ b. Design a semaphore.
 
  Given a mathematical expression. How to design this expression evaluator using OOPs concept.
 Given sorted array in decreasing order. Find first occurrence of given key.
+
+Given a magazine of thousands of pages. You have to construct a note out of it by cutting the words out of it. You can only cut whole word from magazine and you can’t add any words. Also, you can’t cut partial words or alphabets from it.
+Given an array of size N= k*s. In this array, construct blocks of k size each (Number of such blocks will be s). Now find all combinations of these numbers such that difference among the k numbers in the block should not be greater than d. e.g. N=6, k=2, s=3 A={2,4,6,8} and d=2. So the answer should be 2 {{2,4},{6,8}},{{4,6},{6,8}}.
+
+How many Binary Search trees can be constructed using sequence of N numbers? Write Code for it.
+How many cycles of length 3 can be constructed using edges of aundirected graph?
