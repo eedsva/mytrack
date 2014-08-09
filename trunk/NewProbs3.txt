@@ -196,3 +196,30 @@ I gave the native solution in O(n). He told to optimize more. Direct binary sear
 I told that i will divide the string in 10 size slots it will reduce complexity. Still he told to optimize more. I told i will increase the slot size in power of 2 like 2,4,8,16,32. he was satisfied with that.
 He again complicate it by adding that now my string contain 0, 1, 2 in sorted order. You need to find transition point from 0 to 1 and 1 to 2. i provided the approach.
 After that told this time i want to make it generic. String can contain 0 to n(input) number find all the transition point. I solved it, he was satisfy with approach and told me write code for it.
+
+He gave me task scheduling problem:
+Given a set of modules, some modules depend on previous modules and can only be executed, if the requirements of that module is complete.
+
+Eg: module A depends on module B,C 
+   module B depends on module C and D
+   module C depends on E
+   module E depends on D
+   module D doesn't depend on any other module 
+so he asked me to give a schedule for above modules such that when a module is executed then all requirements of that module are complete.
+so answer would be D E C B A
+
+Suppose the structure of a binary tree is
+
+    struct node {  int val;  
+     struct node *left,*right,*random;
+    }node; 
+Where random pointer points to any random node of the binary tree and can even point to NULL, then how will you clone this tree.
+
+Given, the starting and ending time of different meetings, what is the minimum number of conference rooms that will be enough to accommodate all of them.He asked me to code it.E.g, :
+I/p : Meeting I – 8:30 – 12:50
+
+Meeting II – 10:15 – 11:30
+
+Meeting III – 11:45 – 1:30
+
+O/p : 2
