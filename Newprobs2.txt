@@ -228,5 +228,75 @@ Then with hint, came up with using balanced binary search tree to store the
 
 scores.
 
+Parse a string and return if it is valid or not based on given patterns.It should contain only
+“1? or “12? or “122? ONLY
+
+There is a device driver that reads from a camera and writes a stream of bytes (captured frames) into a buffer. There also is a viewer that reads from this same buffer. The device driver and viewer do not communicate with each other other than through this buffer. Design and code this scenario. You may choose the data structure of the buffer per your liking. Please note that there may be multiple viewers.
+
+Given a binary search tree of positive integers, if all the nodes are multiplied with -1 then is it still a BST? If not, reconstruct to one.(Mirror tree code)
+
+Given an array of random unique integers, find the indices x,y,z such that a[x] 2)Given a ransom note and a magazine as Strings , find if the note can be made out of the magazine or not.
+3)Modified the second question to real time scenario where in , the magazine has print on both sides and only one side can be used.
+
+There is a matrix mat[m][n] with entries as 0 or 1 When you are at 1 you can move in all the eight directions and when at 0, you have to return back. Find the number of cluster of 1's
+
+e.g. input  { {1,1,0,0,0},
+             {1,0,0,1,0},
+             {0,0,0,1,1},
+             {1,0,1,0,0}  }
+output 3
+
+clusters ((0,0),(0,1),(1,0))    
+         (1,2),(2,2),(2,3),(3,2)        
+         (3,0)
+At Bit level, how will you find if a number is a power of 2 or not.
+
+ A number starting from 1 can be got by either multiplying 3 or adding 5 to it. Given a number, find the sequence of operations to get it or say it’s not possible.
+e.g: 13 is 1 * 3 + 5 + 5 but 15 you cannot get.
+
+How many times does the minutes’ hand cross the hours’ hand during one day?
+
+Given an array which can contain either 0s or 1s, write an algorithm to find the length of the longest subarray of all 1s and all 0s
+
+Design an e-commerce system for me using block diagrams and architecture diagrams. What components will you use and why? What does each component do?
+
+ Give me an example of a machine learning algorithm which you will use for giving suggestions on a e-commerce website.
+
+Design a database schema for an Android app which calculates your GPA and stores it in a SQL database
+
+
+	Given n appointments with the start time, end time and a boolean variable hasConfilct, we have to set the boolean variable hasConflict of those appointments that conflict with the other appointments.
+
+Example:  Appointment1: (2:00-3:00)
+	  Appointment2: (2:30-3:30)
+	  Appointment3: (4:00-6:00) 
+I have to set the the hasConflict of Appointment 1 and 2 as true.
+Initially, I did it in O(n^2). But then he asked me to optimize the solution. After some discussion, I was able to solve it in O(nlogn).
+
+Given that at Amazon.in the details page of an item shows only one field that is dynamically picked up from the database, we have to improve the performance according to the line:
+“80% of the users visit details page of 20% of products.”
+I said we could store these 20% on the web server so that we don’t have to fetch the item details from database everytime. He asked me where and how will i store it. I answered Main memory and will use BST to store it. Then after a lot of discussion(about 30 mins) on how will the get and put operations be used, he was satisfied with the solution.
+
+When a single threaded application is converted to multi-threaded applications, what kind of changes operating system has to make?
+
+5.	What steps are taken when the os shifts from one-thread execution to another?
+
+Given a sentence say, “I love Intuit and Intuit loves me”, find the number of times the word “Intuit” occurs in the sentence.
+I asked him, any language restrictions or any other constraints. He told any language, but it has to be better than brute force and the coding standards must be production level with all exceptions taken care of, properly modularized and neatly structured.
+I first told him my approach and he was satisfied. I wrote the code in Java.
+
+2. He extended the question. Assume you have 2 million files with some text in it. How do you find the number of times the word “Intuit” occurs in all these files. I suggested an approach with O(n), but he said it can be better optimized.
+
+Given a linked list which contains series of numbers seperated by “0?. Add them and store in the linked list in-place.
+
+for eg : i/p linked list is 1->2->3->0->5->4->0->3->2->0
+o/p Linked list is 6->9->5 
+
+Given a binary tree and value V. delete all the leaf nodes whose values are equal to V. It must handle all cases for example if u delete both leaf from a node Say B. Then the node B also becomes the leaf node.
+
+Convert a string into a string without duplicates without changing the order of characters IN PLACE. EG: Input: Bananas Output: Bans.
+
+given a 2d character array and u r allowed to move down, left, diagonal down and form a string and check whether that string is present in the dictionary or not.
+ans. i gave him backtracking approach and he saw that and he asked whether i can improve it little more. i gave binary search solution for searching in the dictionary and he told me that i can use prefix checks also. then i made use of it. Then he moved to second question.
 
 
