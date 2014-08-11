@@ -11,3 +11,4 @@ One who picks the last coin wins.. Find algo for it.
 
  “8 coins and a balance scale”
 There are 50 people in a bank. Each person is either an employee or a customer. Each person knows what everyone else is. The police can ask person i what person j is. Customers will always tell the truth. Employees are evil geniuses who may not tell the truth. The police have to find at least one customer asking a maximum of 49 questions. More than half the people are customers.
+
