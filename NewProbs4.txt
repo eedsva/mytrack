@@ -1,0 +1,118 @@
+Print the word with odd letters as
+
+P         M
+ R      A
+   O  R
+     G
+  O    R
+ R       A
+P          M 
+
+	Given a set of numbers like <10, 36, 54,89,12> we want to find sum of weights based on the following conditions
+    1. 5 if a perfect square
+    2. 4 if multiple of 4 and divisible by 6
+    3. 3 if even number
+
+And sort the numbers based on the weight and print it as follows
+
+<10,its_weight>,<36,its weight><89,its weight>
+
+Should display the numbers based on increasing order.
+
+3.	Save the string “WELCOMETOZOHOCORPORATION” in a two dimensional array and search for substring like “too” in the two dimensional string both from left to right and from top to bottom.
+
+w	e	L	C	O
+M	E	T	O	Z
+O	H	O	C	O
+R	P	O	R	A
+T	I	O	n	  
+And print the start and ending index as
+
+Start index : <1,2>
+
+End index: <3, 2>
+
+Given a two dimensional array of string like
+
+  <”luke”, “shaw”>
+  <”wayne”, “rooney”>
+  <”rooney”, “ronaldo”>
+  <”shaw”, “rooney”> 
+Where the first string is “child”, second string is “Father”. And given “ronaldo” we have to find his no of grandchildren Here “ronaldo” has 2 grandchildren. So our output should be 2.
+
+ Given two sets of elements we have to find whether the resulting set of LCM of the two sets would be equal or not.
+Ex:- Let the set be X = {2,3,4}
+Then the LCM set would be consisting of all the LCM of any subset of the given set.
+In this case, LCM(X)={2,3,4,6,12}
+Constraints:
+     Number of elements in both sets donot exceed 50.
+     Range of elements i.e A_i and B_i<=10^9
+I solved this question by first segregating the different elements in different set.
+Let's suppose for set A, A' contains all the elements in A which satisfy A'=A-{A intersection B}
+Similarly a B' for B.
+Now for every element in A', I checked the number of elements(n) that are it's factors in B i.e numbers that may contribute to generating the number in A' in the final LCM(B).
+If for any number in A' if n<2 then the number can definitely not be in final LCM(B) set and the function should return false.
+Similar test was carried out for all elements in B'.
+If the function didn't return false during these two loops then the answer should be true.
+Although this logic doesn't cover all cases(like if two sets are {2,5,70} and {2,5,10}....ans is true .....but correct ans is false ), it passed as the test cases were weak.(I mean if such a tough question is in first round they gotta compensate somewhere else).
+
+2- Given a network of roads connecting cities and capacity of each road(same for all roads)as well as their cost of repair(unique for each road) we are given number of buses(n) running between pair of cities using shortest path only. (Capacity of road= No of buses allowed on that road).
+Unsafe roads are road where no of buses on the road > Capacity of the road.
+Now given n we have to minimize the overall cost of all unsafe roads.
+Pretty tough from what I recall I understood that we have to calculated the maximum number of disjoint shortest paths so as to minimize the answer.(My solution only passed one test case).
+
+Given a lane where there are various houses each containing a fixed amount of gold. Now a robber has to rob the houses such that when he robs a house the adjacent one cannot be robbed.Calculate the maximum amount of gold collected by him.(Classic Dp question).
+
+Given 1000 elephant ,none of whom exact heights are known, there are statements given which will be of two forms
+
+     3.i-E_i is taller than E_j
+      OR
+     3.ii-E_i is smaller than E_j 
+Calculate the ascending order of the elephants(in terms of height).
+Seemed tough to me on the first look but after a few minutes I was able to do it.
+(Construct a DAG using the statements and then topologically sort them to get the answer)
+
+Topologically sort the DAG(excluding forest arrangement) given if the source is not known.
+For Ex: if edges are 1->2,1->3,2->4,3->4 .
+then normally we would run dfs from each pt and then choose the node as source which visits all the nodes.
+This fairly is an O(n^2) algo.
+I was then asked whether an O(n) algorithm is available.
+I told the interviewer that if we run dfs from each node but instead of flushing clean the visited array each time we just keep the data then the dfs from the node after which whole visited array is marked i.e all the nodes are visited is the source.
+when running dfs from a node if at any pt a visited node is encountered we leave the node and move to next child.Just by keeping a stack also during the dfs ….after all the values int the visited array is marked we will have the final topological sorted order of the DAG in the stack.
+
+5- Given a pond where all the stones are lined at a distance of one unit (C in each row and there are R such rows), each stone has a special value which denotes the length of the jump the frog can make i.e if frog is on stone (x,y) and value is k then frog can jump to (x+dx,y+dy) where dx+dy=k and frog doesn’t leave the bounds.Find the min number of jumps to reach the stone at (R,C).
+Visualized it in from of a matrix.Did it using DP ……..In case you are wondering, for a frog at cel (x,y) run two loops of dx and dy where net dx+dy=k and do dp[x+dx][y+dy]=min(dp[x][y]+1,dp[x+dx][y+dy]).
+Answer would be in dp[R][C].
+Then I was asked to bactrack the path which was quite easy as for dp[x][y] subtract 1 from it and look for the resulting value in cells (i,j) where i<=x and j<=y . Repeat this process till (0,0) is reached.
+
+Implement LRU and LFU page replacement policy using Data structures.
+Had already encountered the question while preparing for Amazon.
+I did it using Doubly Ended queue and a hashmap(Map or BST does not matter as both have same complexity for retrieval and insertion of data).
+
+2- Given a normal die and a blank die. Fill in the blank die such that probability of sum of the number from both die is same for all the resulting sum and sum has a range from 1 to 12.
+After a hit and trial I realized the number on blank die would be repeated to given a even probability distribution.
+Min element required on blank die = 0
+Max element required on blank die = 6.
+mark 3 sides with 0 and three with 6 .
+Due to the fact that the probability of occurrence of 0 and 6 on the blank die is same and equal to 0.5 ,
+P(Each sum)=1/2*P(i)=1/12 for each number.
+Now taking 1/12 in the start then deriving the solution should have been easy but due to the tiring day and worse weather my mind took the backdoor method.
+
+ A string can contain only a, b or c. There cannot be 2 consecutive same character. First and last character cannot be same. Now given a string with ‘a’, ‘b’, ‘c’ or ‘?’. We need to find the string replacing ‘?’ that satisfy the above conditions. For multiple answer display lexicographically smallest string. For no answer possible display “Not Possible”.
+An array of size n needs to be filled with either ‘R’, ‘G’ or ‘B’. Number of ways to fill the array such that there are minimum r ‘R’, g ‘G’ and b ‘B’.
+
+Question 2. There is a rectangle with left bottom as (0, 0) and right up as (x, y). There are n circles such that their centers are inside the rectangle. Radius of each circle is r. Now we need to find out if it is possible that we can move from (0, 0) to (x, y) without touching the circle. We can move freely anywhere.
+
+ There is a binary tree. We are given 3 nodes a, b and c. We need to find a node in the tree such that we remove all edge from that node we get a, b and c in three different trees.
+
+Question 2. Given an array and an integer T. We need to find a subarray from i, i + 1, i + 2……..j such that ||a[i] + a[i + 1] + ……. a[j]| – T| is minimum.
+
+Given an array of integers where all the elements occur odd number of times except 3 elements which occur even number of times, find the 3 elements.
+
+Given an array containing elements where all elements have even occurrences except two elements, find those elements.
+- I gave him the xor approach where you have to find the rightmost set bit and then divide into two groups. He was waiting for that and went directly to bit representation, i.e. Little Endian and Small Endian.
+Followup : Check if the given machine architecture is Little or Small Endian.
+
+Given a set of intervals, you have to group the overlapping intervals and display all the intervals in non decreasing order.
+Eg: (1,5),(8,11),(3,6),(10,20)
+output: (1,6),(8,20)
