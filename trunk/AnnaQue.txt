@@ -1,0 +1,11 @@
+1.Given an array representation of tree where each index tells the node no and value tells the parent.
+Print the reverse level ordertraversal.
+
+2.Snake and Ladders in hacker rank
+
+3.Influencer-In a matrix if all others are following one user and that user is not following anyone
+Find the influencer.
+
+4.Least Common Ancestor in Binary tree
+
+5.Print Balanced Paranthesis
